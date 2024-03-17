@@ -67,8 +67,8 @@ const logIn = () => {
             </form>
             {
                 isSub && <div className="fixed top-0 flex justify-center items-center h-screen w-full">
-                    <div className="w-4/5  lg:w-2/4 h-2/3 bg-purple-400 text-center rounded-xl flex flex-col justify-center">
-                        <h1 className="text-white text-5xl font-bold">Successful</h1>
+                    <div className="w-4/5  lg:w-2/4 h-2/3 bg-[#5c5c5c] text-center rounded-xl flex flex-col justify-center">
+                        <h1 className="text-[#3fd262] text-5xl font-bold">Successful</h1>
                         <p className="text-xl text-white font-semibold mt-5 mb-2">Name : {name}</p>
                         <p className="text-xl text-white font-semibold ">Email : {email}</p>
                     </div>
