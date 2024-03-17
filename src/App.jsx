@@ -1,11 +1,11 @@
-import logIn from "./Components/logIn"
+// eslint-disable-next-line no-unused-vars
+import LogIn from "./Components/LogIn"
 function App() {
 
   return (
-    <>
-      <h1>Log in</h1>
-      <logIn></logIn>
-    </>
+    <div >
+      <LogIn></LogIn>
+      </div>
   )
 }
 
