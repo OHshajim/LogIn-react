@@ -51,7 +51,7 @@ const logIn = () => {
                 <input
                     onChange={(event) => setPass(event.target.value)}
                     type="password"
-                    placeholder="Enter your name"
+                    placeholder="Enter your password"
                     className="p-3 rounded-2xl text-base bg-transparent border-2 border-gray-400 font-semibold" 
                     required
                     />
